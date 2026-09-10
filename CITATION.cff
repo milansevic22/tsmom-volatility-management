@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you reference this work, please cite it as below."
+type: software
+title: "Volatility Management as Risk Avoidance: Evidence from Cross-Asset Time-Series Momentum"
+authors:
+  - family-names: "Sevic"
+    given-names: "Milan"
+date-released: 2026
+repository-code: "https://github.com/Milansevic22/tsmom-volatility-management"
+abstract: >
+  Undergraduate dissertation examining whether portfolio-level volatility
+  management improves cross-asset time-series momentum, or mainly produces
+  a lower-exposure version of the underlying strategy, across 19 futures
+  contracts from 1990 to 2025.
+keywords:
+  - time-series momentum
+  - volatility management
+  - trend following
+  - futures
+  - quantitative finance
+license: MIT

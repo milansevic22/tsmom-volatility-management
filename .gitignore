@@ -1,0 +1,56 @@
+# =============================================================
+# Proprietary / licensed market data — must never enter Git history
+# =============================================================
+# The original dissertation source folder is immutable source material,
+# used only to derive the artefacts under paper/, original/, and (via a
+# local, gitignored data/raw/ copy) the figures and validated results.
+# It is never committed, in whole or in part.
+EC3400 Dissertation/
+
+# Local copies of licensed data a user places for their own reproduction runs.
+data/raw/
+data/**/*.csv
+data/**/*.xls
+data/**/*.xlsx
+!data/README.md
+
+# Local configuration / secrets
+.env
+.env.*
+config.yaml
+config.local.yaml
+*.pem
+*.key
+credentials.json
+
+# =============================================================
+# Python
+# =============================================================
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =============================================================
+# Editor / OS
+# =============================================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
